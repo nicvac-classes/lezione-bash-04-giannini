@@ -13,5 +13,7 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
+cp -r ambiente/documenti/report/ ambiente/sandbox/
+mv ambiente/documenti/note.txt ambiente/documenti/appunti.txt
+ls
 
