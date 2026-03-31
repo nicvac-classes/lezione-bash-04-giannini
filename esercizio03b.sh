@@ -14,5 +14,8 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
-
+ls -l dati_privati.txt
+chmod g+r dati_privati.txt
+ls -l dati_privati.txt
+chmod o-rwx dati_privati.txt
+ls -l dati_privati.txt
