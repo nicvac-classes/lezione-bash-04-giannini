@@ -14,5 +14,7 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
+awk -F',' '{print $2, $4}' ambiente/dati/prodotti.csv
+grep 'Periferiche' ambiente/dati/prodotti.csv
 
 

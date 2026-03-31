@@ -12,5 +12,7 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
+find ambiente/ -name *.jpg
+find ambiente/progetti/ -type d
+grep -n "TODO" | find ambiente/progetti/
 

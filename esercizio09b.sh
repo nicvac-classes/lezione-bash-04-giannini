@@ -18,5 +18,5 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
-
+grep -E -i "mario|anna" ambiente/log/accessi.log
+grep -E  "login_ok|login_fallito" ambiente/log/accessi.log \ grep -c

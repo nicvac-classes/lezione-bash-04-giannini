@@ -14,5 +14,7 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
+grep 'login_fallito' ambiente/log/accessi.log
+grep 'login_ok' ambiente/log/accessi.log | wc -l
 
 
