@@ -13,5 +13,8 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
+ls ambiente/immagini/lavoro/*.jpg
+head -n 5 ambiente/log/server.log >> ambiente/sandbox/estratto.txt
+tail -n 3 ambiente/log/server.log >> ambiente/sandbox/estratto.txt
 
 
