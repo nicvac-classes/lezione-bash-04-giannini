@@ -20,5 +20,6 @@
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
 
-
+mkdir -p scuola/{classi,docenti}/{terza/quarta}
+tree scuola
 
